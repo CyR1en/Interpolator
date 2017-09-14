@@ -19,7 +19,7 @@ public class TestClass implements Interpolator {
 ### Example
 without Interpolator:
 ```java
-System.out.printf("hello %s", new String("world));
+System.out.printf("hello %s", new String("world"));
 ```
 
 with Interpolator:
