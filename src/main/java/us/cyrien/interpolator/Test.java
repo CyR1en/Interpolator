@@ -12,12 +12,12 @@ public class Test implements Interpolator {
     public Test() {
         testInt = Integer.MAX_VALUE;
         testString = UUID.randomUUID().toString();
-        print("variable Interpolation Test: \n\n" +
+        printf("variable Interpolation Test: \n\n" +
                 "testInt = $testInt \n" +
                 "numbers = $numbers \n" +
                 "testString = $testString \n" +
                 "letters = $letters \n");
-        print("Integer's Max Value is $testInt");
+        printf("Integer's Max Value is $testInt");
     }
 
     public static void main(String[] args) {

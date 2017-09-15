@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 
 public interface Interpolator {
 
-    default void print(String s) {
+    default void printf(String s) {
         Class clazz = this.getClass();
         String out = process(clazz, s);
         System.out.println(out);
