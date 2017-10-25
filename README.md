@@ -35,4 +35,4 @@ hello world
 ```
 
 ### Caveats
-Accessing fields inside methods are not supported by ReflectionAPI since variables inside methods are explicit only to that method.
+Accessing fields inside methods are not supported by ReflectionAPI since variables inside methods are explicit only to that method when it executes.
